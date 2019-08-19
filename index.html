@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./popup.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+	<div class="top">
+			<div class="header">
+				<div class="header-left">
+					<img src="img/football.png">
+					<span class="name"><a href="#tai">Taito</a></span>
+				</div>
+				<div class="header-right">
+					<a href="#pro">Profile</a>
+					<a href="#hob">Hobbies</a>
+					<a href="#con">Dream</a>	
+				</div>
+			</div>
+
+		<div class="welcome" id="tai">
+			<h1 class="title">Taito's Profile</h1>
+			<h4 class="subtitle">Enjoy My life</h4>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="profile">
+			<div class="profile-left">
+				<h1 id="pro"><span class="pro">My profile</span></h1>
+				<ul>
+					<li><span>NAME</span>  Taito Ito</li>
+					<li><span>BIRTHDAY</span>  1999/5/12</li>
+					<li><span>FROM</span>   Kashiwa,Chiba,Japan</li>
+					<li><span>FAVORITE FOODS</span>  Everything People Can Eat</li>
+					<li><span>HOBBIES</span>   Traveling, Snowboarding, Soccer</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="hobbis">
+			<div class="hobbis-name">
+				<h1 id="hob">Hobbies</h1>
+			</div>
+			<div class="hobbis-top">
+				<a href="#tr">Travel</a>
+			</div>
+			<div class="circle">
+				<div class="hobbis-circle cl">
+					<a href="#sn">Snowboarding</a>
+				</div>
+				<div class="hobbis-circle cr">
+					<a href="#so">Soccer</a>
+				</div>
+			</div>
+
+			<div class="travel">
+				<div class="travel-name">
+					<h1 id="tr">Travel</h1>
+				</div>
+				<div class="travel-contents">
+					<h2>Visited Countries</h2>
+					<p>Germany, Philippines</p>
+				</div>
+				<div class="travel-contents">
+					<h2>Famous Places In Japan</h2>
+					<p>Lake Yamanaka In The Morning(Shizuoka)</p>
+					<p>Sennsoji Temple At Midnight(Tokyo)</p>
+					<p>Choshi City(Chiba)</p>
+				</div>
+			</div>
+
+			<div class="snowboarding">
+				<div class="snow-name">
+					<h1 id="sn">Snowboarding</h1>
+				</div>
+				<div class="snow-contents">
+					<h2>LET'S GO SNOWBOARDING WITH ME</h2>
+				</div>
+			</div>
+
+			<div class="soccer">
+				<div class="soccer-name">
+					<h1 id="so">Soccer</h1>
+				</div>
+				<div class="soccer-contents">
+					<h2>START</h2>
+					<span>4 year-old</span>
+					<h2>TEAM</h2>
+					<span>Kashiwa Eagles(Reysol TOR'82)-Matsuba-<br>YachiyoFC-MAPLE(Chuo Univ.)</span>
+					<h2>POSITION</h2>
+					<span>DF</span>
+					<h2>DOMINANT FOOT</h2>
+					<span>Right</span>
+				</div>
+			</div>
+
+			<div class="bottom">
+				<div class="contact-name"><h1 id="con">Dream</h1></div>
+
+				<div class="contact-top">
+					<h2>WANT TO DO</h2>
+					<p>Travel All Over The World</p>
+					<p>Travel All Around Japan</p>
+					<p>Establish A Company</p>
+					<p>Become A Millionaire</p>
+				</div>
+
+			</div>
+
+			<footer>
+				<div class="footer-center">
+					<a id="js-show-popup">(C)Taito Ito</a>
+				</div>
+				<div class="footer-right">
+					<div class="face">
+						<a href="https://www.facebook.com/people/%E4%BC%8A%E8%97%A4%E5%A4%A7%E6%86%A7/100015958657116"><img src="img/facebook.png"></a>
+					</div>
+					<div class="inst">
+						<a href="https://www.pictame.com/user/tit_ciw/1992338950"><img src="img/instagram.png"></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+
+	<div class="popup" id="js-popup">
+		<div class="popup-inner">
+			<div class="close-btn" id="js-close-btn">
+				<i class="fas fa-times"></i>
+			</div>
+			<div class="timer">
+				<h1>Uutil Next My BirthDay...</h1>
+				<div id="result"></div>
+				<div class="amzon">
+					<a class="amazon" href="https://www.amazon.co.jp/"><img src="img/amazon.png"></a>
+				</div>
+			</div>
+		</div>
+		<div class="black-background" id="js-black-bg"></div>
+	</div>
+
+
+	<script src="./app.js"></script>
+</body>
+</html>

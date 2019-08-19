@@ -1,0 +1,359 @@
+.top{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-image: url(img/IMG_1501.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	font-size: 25px;
+	padding: 0px 70px;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	width: 91%;
+}
+
+.header-left{
+	display: flex;
+	align-items: center;
+	font-family: 'Cavest', cursive; 
+}
+
+.header-left img{
+	height: 20px;
+	margin-right: 10px;
+}
+
+.header-left .name{
+	color: white;
+	font-size: 40px;
+}
+
+.name a{
+	color: white;
+}
+
+.header-right{
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.header-right a{
+	padding: 0px;
+	margin-right: 30px;
+	color: white;
+}
+
+.header-right a:hover {
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.title{
+	font-size: 85px;
+	color: white;
+	margin: 100px 0 20px 0;
+	font-family: 'Bangers', cursive;
+}
+
+.subtitle{
+	font-size: 40px;
+	font-family: 'IM Fell DW Pica SC', serif;
+	color: white;
+	margin: 0 0 50vh 0;
+	opacity: 0.7;
+}
+
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	font-size: 50px;
+	/*text-align: center;*/
+	justify-content: space-around;
+	background-image: url(img/IMG_9644.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 105vh;
+
+}
+
+.pro{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+    font-family:'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+}
+
+.profile-left{
+	display: flex;
+	flex-direction: column;
+	height: 700px;
+	justify-content: space-between;
+}
+
+.profile-left li{
+	font-size: 30px; 
+	margin: 50px;
+}
+
+.profile-left li span{
+	font-weight: bolder;
+	border-bottom: solid;
+	border-bottom-color: black;
+	border-width: 2px;
+}
+
+.hobbis{
+	background-image: url(img/IMG_0642.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120vh;
+}
+
+.hobbis-name{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 50px;
+	padding-top: 30px;
+	font-family:'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+}
+
+.hobbis-top{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: rgba(176,196,222,0.5);
+	font-size: 40px;
+	margin: 10px auto;
+	margin-top: 100px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.circle{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.hobbis-circle{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: rgba(176,196,222,0.5);
+	font-size: 40px;
+	margin: 0 30px 100px 30px;
+}
+
+.hobbis a{
+	color: black;
+}
+
+.hobbis a:hover {
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.travel{
+	background-image: url(img/GPTempDownload.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 105vh;
+	color: white;
+}
+
+.travel-name{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 30px 0 60px 0;
+	color: white;
+	font-family:'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+}
+
+.travel-contents{
+	margin-top: 100px;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.travel-contents h2{
+	margin-bottom: 20px;
+}
+
+.travel-contents p{
+	margin-bottom: 10px;
+}
+
+.snowboarding{
+	background-image: url(img/IMG_2926.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 105vh;
+	color: white;
+}
+
+.snow-name{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family:'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+	padding: 30px 0 60px 0;
+	color: white;
+}
+
+.snow-contents{
+	font-size: 50px;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+.soccer{
+	background-image: url(img/IMG_3125.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 105vh;
+	color: white;
+}
+
+.soccer-name{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family:'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+	padding: 30px 0 60px 0;
+	color: white;
+}
+
+.soccer-contents{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.soccer-contents h2{
+	margin-bottom: 20px;
+}
+
+.soccer-contents span{
+	margin-bottom: 40px;
+}
+.bottom{
+	background-image: url(img/IMG_9784.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 105vh;
+	color: black;
+
+}
+
+.contact-name{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family:'IM Fell DW Pica SC', serif;
+    font-size: 60px;
+	padding: 30px 0 60px 0;
+}
+
+.contact-top{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	height: 500px;
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+.contact-top h2{
+	font-family:'IM Fell DW Pica SC', serif;
+	font-size: 35px;
+}
+
+.contact-top p{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	height: 100px;
+}
+
+.footer-center{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+	margin-left: 470px;
+}
+
+.footer-center a{
+	color: #fff;
+}
+
+.footer-right{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 370px;
+}
+
+.face{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.inst{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
